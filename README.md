@@ -15,7 +15,7 @@ I used this for starting with Terraform so is not fancy.
 ## Technologies
 Project is created with:
 * Terraform (no specific version)
-* AWS - creates a t4ga.nano server
+* AWS - creates a t4g.nano server
 * Installs nginx
 * Is expecting ENV vars for aws access and secretk keys:
 export AWS_ACCESS_KEY_ID="anaccesskey"
