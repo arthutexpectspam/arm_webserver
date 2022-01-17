@@ -9,11 +9,14 @@ It is expecting two security groups to exist:
 allow_web
 allow_ssh
 
+I used this for starting with Terraform so is not fancy.
+
 
 ## Technologies
 Project is created with:
 * Terraform (no specific version)
 * AWS - creates a t4ga.nano server
+* Installs nginx
 * Is expecting ENV vars for aws access and secretk keys:
 export AWS_ACCESS_KEY_ID="anaccesskey"
 export AWS_SECRET_ACCESS_KEY="asecretkey"
